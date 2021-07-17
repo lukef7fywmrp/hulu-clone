@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+
+@layer base {
+  body {
+    @apply font-Rubik bg-black text-white overflow-x-hidden;
+  }
+
+  a {
+    @apply hover:text-[#ccc];
+  }
+
+  h4 {
+    @apply text-[#00ED82] text-[13px] uppercase font-semibold;
+  }
+
+  h3 {
+    @apply text-[26px] font-light;
+  }
+}
+
+@layer components {
+  .button {
+    @apply inline-block bg-white text-[#333] min-w-[135px] py-5 px-8 text-[15px] font-semibold rounded-[5px] tracking-wide uppercase focus:outline-none;
+  }
+
+  .legal-text {
+    @apply text-[10px] text-[#ccc] mt-5;
+  }
+
+  .sub-link {
+    @apply block text-[#ccc] text-xs mt-[5px] underline;
+  }
+
+  .heading {
+    @apply text-[40px] md:text-[70px] font-bold;
+  }
+
+  .sub-heading {
+    @apply max-w-[850px] mb-2.5 text-xl md:text-2xl;
+  }
+
+  .list-head {
+    @apply uppercase font-bold mb-[5px];
+  }
+}
