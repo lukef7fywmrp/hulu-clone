@@ -6,13 +6,13 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         header: "url('http://tny.im/pfZ')",
-        "cover-1": "url(http://tny.im/pg3)",
-        "cover-2": "url(http://tny.im/pg4)",
-        "cover-3": "url(http://tny.im/pg5)",
-        "cover-4": "url(http://tny.im/pg6)",
-        "live-sports": "url(http://tny.im/pgd)",
-        "live-sports-small": "url(http://tny.im/pgf)",
-        "network-logo": "url(http://tny.im/pge)",
+        "cover-1": "url('http://tny.im/pg3')",
+        "cover-2": "url('http://tny.im/pg4')",
+        "cover-3": "url('http://tny.im/pg5')",
+        "cover-4": "url('http://tny.im/pg6')",
+        "live-sports": "url('http://tny.im/pgd')",
+        "live-sports-small": "url('http://tny.im/pgf')",
+        "network-logo": "url('http://tny.im/pge')",
         "linear-gradient":
           "linear-gradient(318.68deg,#0F495C 0%, #0D3640 49.72%, #08141F 100%)",
         "linear-gradient-2":
